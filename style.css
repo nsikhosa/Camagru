@@ -1,0 +1,111 @@
+/*############### All pages ##############*/
+
+.body{
+    text-align: center;
+    font: bold;
+    background-image: url("http://www.wallpapersandbackground.com/images/Nice-3d-fullscreen-wallpapers-free-gallery-for-pc-and-laptop.jpg");
+    font-size: 200%;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+/*############### register, login box ##############*/
+
+.register{
+    position: relative;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    left: 40%;
+    background-image: url("http://www.wallpapersandbackground.com/images/Nice-3d-fullscreen-wallpapers-free-gallery-for-pc-and-laptop.jpg");    
+    width: 20%;
+    min-width: 200px;
+}
+
+/*############### message box ##############*/
+
+.alert {
+    padding: 20px;
+    background-color: #312423;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+/*############### link ##############*/
+
+.forgotLink{
+    margin-top: 15; 
+    font-size: 15;
+    font-weight: bold;
+}
+
+.forgotLink a:link {
+    color: grey;
+}
+.forgotLink a:visited {
+    color: white;
+}
+
+/*############### home box ##############*/
+
+.camera{
+    width: 400px;
+    background-color: #ccc;
+    border: 10px solid #ddd;
+    margin: 0 auto;
+}
+
+.capture-button{
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+#canvas{
+    display: none;
+}
+
+.header{
+    text-align: center;
+    font: bold;
+}
+
+.header h1{
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+}
+.header input{
+    float: right;
+    margin-right: 20px;
+    background-color: grey;
+}
+
+.emojis{
+    float: right;
+    margin-right: 20px;
+}
+
+.emojis input{
+    background-color: grey;
+}
+
+/*########################################*/
